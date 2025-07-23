@@ -4,8 +4,6 @@ This repository contains the assignments, simulation models, and projects I comp
 
 The course focuses on modeling real-world systems using computational techniques, analyzing system behavior, and implementing simulations using programming tools and mathematical logic.
 
-Here’s an improved and professional version of your description in English, suitable for a `README.md`:
-
 ---
 
 ###  Repository Structure
