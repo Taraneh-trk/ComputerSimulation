@@ -1,0 +1,38 @@
+[RESOURCES]
+worker e
+worker d
+worker c
+worker b
+worker a
+[VARIABLES]
+station d.NumberIn
+enter normal.NumberOut
+a_worker_num
+station c.NumberOut
+station a.NumberIn
+Dispose 2.NumberOut
+station d.NumberOut
+time check.NumberOut
+station c.NumberIn
+after_60_min
+return or not ?.NumberOut False
+station b.NumberIn
+b_worker_num
+return or not ?.NumberOut True
+station e.NumberIn
+rand num 2
+rand num 1
+leave.NumberOut
+where _b or e_ ?.NumberOut True
+station b.NumberOut
+station a.NumberOut
+where _b or e_ ?.NumberOut False
+enter emergency.NumberOut
+retrun or not _go to c or d_.NumberOut False
+e_worker_num
+d_worker_num
+retrun or not _go to c or d_.NumberOut True
+time_in_c
+station e.NumberOut
+where _c or d_?.NumberOut True
+where _c or d_?.NumberOut False

@@ -1,0 +1,995 @@
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              191.88     (Insuf)    140.63     355.55         19    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               166.53     (Insuf)    117.80     277.08         17    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         17    
+normel.WaitTime                             26.498     (Insuf)    .00000     78.471         17    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         17    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         17    
+normel.TotalTime                            193.03     (Insuf)    140.63     355.55         17    
+emergency.VATime                            179.88     (Insuf)    176.66     183.11          2    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          2    
+emergency.WaitTime                          2.1858     (Insuf)    .00000     4.3717          2    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          2    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          2    
+emergency.TotalTime                         182.07     (Insuf)    176.66     187.48          2    
+station c.Queue.WaitingTime                 5.9020     (Insuf)    .00000     24.064         16    
+station d.Queue.WaitingTime                 5.5585     (Insuf)    .00000     37.550         25    
+station a.Queue.WaitingTime                 .26064     (Insuf)    .00000     6.7337         29    
+station e.Queue.WaitingTime                 2.8585     (Insuf)    .00000     22.650         20    
+station b.Queue.WaitingTime                 32.450     (Insuf)    .00000     65.857         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  13.326     (Insuf)    7.0000     18.000     18.000    
+emergency.WIP                               .67818     (Insuf)    .00000     2.0000     .00000    
+worker e.NumberBusy                         2.0922     (Insuf)    .00000     3.0000     2.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .69742     (Insuf)    .00000     1.0000     .66667    
+worker d.NumberBusy                         3.5849     (Insuf)    2.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .89623     (Insuf)    .50000     1.0000     1.0000    
+worker c.NumberBusy                         .71211     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .71211     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.9708     (Insuf)    2.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .99029     (Insuf)    .66667     1.0000     1.0000    
+worker a.NumberBusy                         .92729     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .46365     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .24913     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .43661     (Insuf)    .00000     3.0000     1.0000    
+station a.Queue.NumberInQueue               .02100     (Insuf)    .00000     2.0000     .00000    
+station e.Queue.NumberInQueue               .15881     (Insuf)    .00000     2.0000     .00000    
+station b.Queue.NumberInQueue               2.8520     (Insuf)    .00000     7.0000     6.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             28.000    
+normel.NumberOut                            17.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         2.0000    
+worker e.NumberSeized                       20.000    
+worker e.ScheduledUtilization               .69742    
+worker d.NumberSeized                       25.000    
+worker d.ScheduledUtilization               .89623    
+worker c.NumberSeized                       16.000    
+worker c.ScheduledUtilization               .71211    
+worker b.NumberSeized                       25.000    
+worker b.ScheduledUtilization               .99029    
+worker a.NumberSeized                       29.000    
+worker a.ScheduledUtilization               .46365    
+System.NumberOut                            19.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              177.24     (Insuf)    110.95     291.55         20    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               157.21     (Insuf)    109.33     259.89         19    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         19    
+normel.WaitTime                             22.047     (Insuf)    .00000     51.378         19    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         19    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         19    
+normel.TotalTime                            179.26     (Insuf)    110.95     291.55         19    
+emergency.VATime                            135.36     (Insuf)    135.36     135.36          1    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+emergency.WaitTime                          3.4198     (Insuf)    3.4198     3.4198          1    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+emergency.TotalTime                         138.78     (Insuf)    138.78     138.78          1    
+station c.Queue.WaitingTime                 13.162     (Insuf)    .00000     31.328         16    
+station d.Queue.WaitingTime                 1.4597     (Insuf)    .00000     10.243         23    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         22    
+station e.Queue.WaitingTime                 2.5099     (Insuf)    .00000     18.756         20    
+station b.Queue.WaitingTime                 7.6496     (Insuf)    .00000     32.366         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  10.686     (Insuf)    7.0000     13.000     11.000    
+emergency.WIP                               .33843     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.1981     (Insuf)    .00000     3.0000     1.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .73273     (Insuf)    .00000     1.0000     .33333    
+worker d.NumberBusy                         3.2157     (Insuf)    2.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .80393     (Insuf)    .50000     1.0000     1.0000    
+worker c.NumberBusy                         .74892     (Insuf)    .00000     1.0000     .00000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .74892     (Insuf)    .00000     1.0000     .00000    
+worker b.NumberBusy                         2.6105     (Insuf)    1.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .87017     (Insuf)    .33333     1.0000     1.0000    
+worker a.NumberBusy                         .73654     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .36827     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .58500     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .26186     (Insuf)    .00000     3.0000     3.0000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               .13944     (Insuf)    .00000     1.0000     .00000    
+station b.Queue.NumberInQueue               .52892     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             21.000    
+normel.NumberOut                            19.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         1.0000    
+worker e.NumberSeized                       20.000    
+worker e.ScheduledUtilization               .73273    
+worker d.NumberSeized                       23.000    
+worker d.ScheduledUtilization               .80393    
+worker c.NumberSeized                       16.000    
+worker c.ScheduledUtilization               .74892    
+worker b.NumberSeized                       25.000    
+worker b.ScheduledUtilization               .87017    
+worker a.NumberSeized                       22.000    
+worker a.ScheduledUtilization               .36827    
+System.NumberOut                            20.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              177.84     (Insuf)    126.45     253.53         21    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               147.05     (Insuf)    111.16     220.33         19    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         19    
+normel.WaitTime                             34.979     (Insuf)    .00000     73.822         19    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         19    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         19    
+normel.TotalTime                            182.03     (Insuf)    126.45     253.53         19    
+emergency.VATime                            133.30     (Insuf)    126.89     139.72          2    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          2    
+emergency.WaitTime                          4.6954     (Insuf)    3.4657     5.9251          2    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          2    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          2    
+emergency.TotalTime                         138.00     (Insuf)    130.35     145.64          2    
+station c.Queue.WaitingTime                 6.4135     (Insuf)    .00000     26.769         16    
+station d.Queue.WaitingTime                 9.2866     (Insuf)    .00000     47.883         27    
+station a.Queue.WaitingTime                 .01323     (Insuf)    .00000     .33083         25    
+station e.Queue.WaitingTime                 6.0214     (Insuf)    .00000     28.688         22    
+station b.Queue.WaitingTime                 6.4166     (Insuf)    .00000     35.980         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  11.105     (Insuf)    9.0000     14.000     14.000    
+emergency.WIP                               .77255     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.4415     (Insuf)    .00000     3.0000     3.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .81386     (Insuf)    .00000     1.0000     1.0000    
+worker d.NumberBusy                         3.3232     (Insuf)    .00000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .83081     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberBusy                         .70131     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .70131     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.6998     (Insuf)    1.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .89994     (Insuf)    .33333     1.0000     1.0000    
+worker a.NumberBusy                         .81607     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .40803     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .28505     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .69650     (Insuf)    .00000     3.0000     .00000    
+station a.Queue.NumberInQueue               9.1898E-04 (Insuf)    .00000     1.0000     .00000    
+station e.Queue.NumberInQueue               .50873     (Insuf)    .00000     2.0000     2.0000    
+station b.Queue.NumberInQueue               .40478     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             23.000    
+normel.NumberOut                            19.000    
+emergency.NumberIn                          2.0000    
+emergency.NumberOut                         2.0000    
+worker e.NumberSeized                       22.000    
+worker e.ScheduledUtilization               .81386    
+worker d.NumberSeized                       27.000    
+worker d.ScheduledUtilization               .83081    
+worker c.NumberSeized                       16.000    
+worker c.ScheduledUtilization               .70131    
+worker b.NumberSeized                       27.000    
+worker b.ScheduledUtilization               .89994    
+worker a.NumberSeized                       25.000    
+worker a.ScheduledUtilization               .40803    
+System.NumberOut                            21.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              206.35     (Insuf)    156.20     263.82         22    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               154.02     (Insuf)    104.16     198.84         21    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         21    
+normel.WaitTime                             52.707     (Insuf)    .00000     93.801         21    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         21    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         21    
+normel.TotalTime                            206.73     (Insuf)    156.20     263.82         21    
+emergency.VATime                            198.23     (Insuf)    198.23     198.23          1    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+emergency.WaitTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+emergency.TotalTime                         198.23     (Insuf)    198.23     198.23          1    
+station c.Queue.WaitingTime                 5.5706     (Insuf)    .00000     21.341         13    
+station d.Queue.WaitingTime                 21.379     (Insuf)    .00000     38.293         28    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         26    
+station e.Queue.WaitingTime                 13.490     (Insuf)    .00000     34.504         25    
+station b.Queue.WaitingTime                 15.108     (Insuf)    .00000     35.187         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  14.736     (Insuf)    11.000     17.000     15.000    
+emergency.WIP                               .40237     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.7349     (Insuf)    .00000     3.0000     3.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .91165     (Insuf)    .00000     1.0000     1.0000    
+worker d.NumberBusy                         3.9885     (Insuf)    3.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .99713     (Insuf)    .75000     1.0000     1.0000    
+worker c.NumberBusy                         .58637     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .58637     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.9557     (Insuf)    1.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .98525     (Insuf)    .33333     1.0000     1.0000    
+worker a.NumberBusy                         .85799     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .42900     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .20116     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               1.6348     (Insuf)    .00000     5.0000     .00000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               1.0830     (Insuf)    .00000     3.0000     3.0000    
+station b.Queue.NumberInQueue               1.0960     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             25.000    
+normel.NumberOut                            21.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         1.0000    
+worker e.NumberSeized                       25.000    
+worker e.ScheduledUtilization               .91165    
+worker d.NumberSeized                       28.000    
+worker d.ScheduledUtilization               .99713    
+worker c.NumberSeized                       13.000    
+worker c.ScheduledUtilization               .58637    
+worker b.NumberSeized                       26.000    
+worker b.ScheduledUtilization               .98525    
+worker a.NumberSeized                       26.000    
+worker a.ScheduledUtilization               .42900    
+System.NumberOut                            22.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              168.78     (Insuf)    130.34     227.11         23    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               139.13     (Insuf)    100.87     176.41         22    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         22    
+normel.WaitTime                             29.913     (Insuf)    2.7850     61.523         22    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         22    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         22    
+normel.TotalTime                            169.04     (Insuf)    130.34     227.11         22    
+emergency.VATime                            163.00     (Insuf)    163.00     163.00          1    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+emergency.WaitTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+emergency.TotalTime                         163.00     (Insuf)    163.00     163.00          1    
+station c.Queue.WaitingTime                 7.1059     (Insuf)    .00000     22.092         13    
+station d.Queue.WaitingTime                 7.8758     (Insuf)    .00000     25.094         30    
+station a.Queue.WaitingTime                 .05659     (Insuf)    .00000     1.4147         25    
+station e.Queue.WaitingTime                 11.261     (Insuf)    .00000     42.818         26    
+station b.Queue.WaitingTime                 8.3744     (Insuf)    .00000     29.678         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  12.365     (Insuf)    11.000     14.000     13.000    
+emergency.WIP                               .59515     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.7402     (Insuf)    .00000     3.0000     3.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .91342     (Insuf)    .00000     1.0000     1.0000    
+worker d.NumberBusy                         3.5099     (Insuf)    1.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .87750     (Insuf)    .25000     1.0000     1.0000    
+worker c.NumberBusy                         .54631     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .54631     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.8718     (Insuf)    2.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .95729     (Insuf)    .66667     1.0000     1.0000    
+worker a.NumberBusy                         .86238     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .43119     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .25660     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .64608     (Insuf)    .00000     5.0000     1.0000    
+station a.Queue.NumberInQueue               .00393     (Insuf)    .00000     1.0000     .00000    
+station e.Queue.NumberInQueue               .83503     (Insuf)    .00000     4.0000     1.0000    
+station b.Queue.NumberInQueue               .68820     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             24.000    
+normel.NumberOut                            22.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         1.0000    
+worker e.NumberSeized                       26.000    
+worker e.ScheduledUtilization               .91342    
+worker d.NumberSeized                       30.000    
+worker d.ScheduledUtilization               .87750    
+worker c.NumberSeized                       13.000    
+worker c.ScheduledUtilization               .54631    
+worker b.NumberSeized                       30.000    
+worker b.ScheduledUtilization               .95729    
+worker a.NumberSeized                       25.000    
+worker a.ScheduledUtilization               .43119    
+System.NumberOut                            23.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              169.63     (Insuf)    110.69     229.96         22    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               153.72     (Insuf)    104.10     210.07         21    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         21    
+normel.WaitTime                             16.996     (Insuf)    .00000     43.359         21    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         21    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         21    
+normel.TotalTime                            170.71     (Insuf)    110.69     229.96         21    
+emergency.VATime                            137.46     (Insuf)    137.46     137.46          1    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+emergency.WaitTime                          9.3619     (Insuf)    9.3619     9.3619          1    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          1    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+emergency.TotalTime                         146.82     (Insuf)    146.82     146.82          1    
+station c.Queue.WaitingTime                 8.3683     (Insuf)    .00000     30.933         19    
+station d.Queue.WaitingTime                 3.8013     (Insuf)    .00000     33.622         23    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         24    
+station e.Queue.WaitingTime                 5.6136     (Insuf)    .00000     31.626         23    
+station b.Queue.WaitingTime                 2.4859     (Insuf)    .00000     15.268         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  10.618     (Insuf)    8.0000     12.000     11.000    
+emergency.WIP                               .41429     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.5336     (Insuf)    .00000     3.0000     2.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .84456     (Insuf)    .00000     1.0000     .66667    
+worker d.NumberBusy                         3.3190     (Insuf)    1.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .82975     (Insuf)    .25000     1.0000     1.0000    
+worker c.NumberBusy                         .84053     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .84053     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.3825     (Insuf)    1.0000     3.0000     2.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .79418     (Insuf)    .33333     1.0000     .66667    
+worker a.NumberBusy                         .77390     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .38695     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .47748     (Insuf)    .00000     2.0000     2.0000    
+station d.Queue.NumberInQueue               .24286     (Insuf)    .00000     2.0000     .00000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               .35865     (Insuf)    .00000     2.0000     .00000    
+station b.Queue.NumberInQueue               .10392     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             23.000    
+normel.NumberOut                            21.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         1.0000    
+worker e.NumberSeized                       23.000    
+worker e.ScheduledUtilization               .84456    
+worker d.NumberSeized                       23.000    
+worker d.ScheduledUtilization               .82975    
+worker c.NumberSeized                       19.000    
+worker c.ScheduledUtilization               .84053    
+worker b.NumberSeized                       25.000    
+worker b.ScheduledUtilization               .79418    
+worker a.NumberSeized                       24.000    
+worker a.ScheduledUtilization               .38695    
+System.NumberOut                            22.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              186.35     (Insuf)    132.72     298.86         19    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               163.08     (Insuf)    120.40     225.94         19    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         19    
+normel.WaitTime                             23.265     (Insuf)    2.5296     72.914         19    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         19    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         19    
+normel.TotalTime                            186.35     (Insuf)    132.72     298.86         19    
+emergency.VATime                                --         --         --         --          0
+emergency.NVATime                               --         --         --         --          0
+emergency.WaitTime                              --         --         --         --          0
+emergency.TranTime                              --         --         --         --          0
+emergency.OtherTime                             --         --         --         --          0
+emergency.TotalTime                             --         --         --         --          0
+station c.Queue.WaitingTime                 7.5607     (Insuf)    .00000     35.501         13    
+station d.Queue.WaitingTime                 5.3829     (Insuf)    .00000     25.308         25    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         22    
+station e.Queue.WaitingTime                 3.6664     (Insuf)    .00000     20.059         22    
+station b.Queue.WaitingTime                 3.6963     (Insuf)    .00000     20.398         23    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  10.545     (Insuf)    8.0000     13.000     10.000    
+emergency.WIP                               .33645     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.2587     (Insuf)    .00000     3.0000     3.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .75293     (Insuf)    .00000     1.0000     1.0000    
+worker d.NumberBusy                         3.5460     (Insuf)    1.0000     4.0000     3.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .88650     (Insuf)    .25000     1.0000     .75000    
+worker c.NumberBusy                         .61782     (Insuf)    .00000     1.0000     .00000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .61782     (Insuf)    .00000     1.0000     .00000    
+worker b.NumberBusy                         2.6062     (Insuf)    1.0000     3.0000     2.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .86875     (Insuf)    .33333     1.0000     .66667    
+worker a.NumberBusy                         .71526     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .35763     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .21445     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .37382     (Insuf)    .00000     3.0000     .00000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               .31314     (Insuf)    .00000     3.0000     2.0000    
+station b.Queue.NumberInQueue               .23615     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             21.000    
+normel.NumberOut                            19.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         .00000    
+worker e.NumberSeized                       22.000    
+worker e.ScheduledUtilization               .75293    
+worker d.NumberSeized                       25.000    
+worker d.ScheduledUtilization               .88650    
+worker c.NumberSeized                       13.000    
+worker c.ScheduledUtilization               .61782    
+worker b.NumberSeized                       23.000    
+worker b.ScheduledUtilization               .86875    
+worker a.NumberSeized                       22.000    
+worker a.ScheduledUtilization               .35763    
+System.NumberOut                            19.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              175.66     (Insuf)    108.13     206.14         22    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               156.23     (Insuf)    103.64     186.63         20    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         20    
+normel.WaitTime                             18.117     (Insuf)    .00000     48.188         20    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         20    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         20    
+normel.TotalTime                            174.35     (Insuf)    108.13     206.14         20    
+emergency.VATime                            173.97     (Insuf)    170.04     177.91          2    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          2    
+emergency.WaitTime                          14.798     (Insuf)    14.665     14.931          2    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          2    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          2    
+emergency.TotalTime                         188.77     (Insuf)    184.97     192.57          2    
+station c.Queue.WaitingTime                 9.1393     (Insuf)    .00000     22.007         15    
+station d.Queue.WaitingTime                 5.1590     (Insuf)    .00000     26.228         23    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         22    
+station e.Queue.WaitingTime                 2.9757     (Insuf)    .00000     15.466         24    
+station b.Queue.WaitingTime                 5.1883     (Insuf)    .00000     21.279         22    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  10.451     (Insuf)    8.0000     12.000     9.0000    
+emergency.WIP                               .83293     (Insuf)    .00000     1.0000     1.0000    
+worker e.NumberBusy                         2.4776     (Insuf)    .00000     3.0000     2.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .82588     (Insuf)    .00000     1.0000     .66667    
+worker d.NumberBusy                         3.4418     (Insuf)    1.0000     4.0000     3.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .86047     (Insuf)    .25000     1.0000     .75000    
+worker c.NumberBusy                         .67189     (Insuf)    .00000     1.0000     1.0000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .67189     (Insuf)    .00000     1.0000     1.0000    
+worker b.NumberBusy                         2.7496     (Insuf)    1.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .91654     (Insuf)    .33333     1.0000     1.0000    
+worker a.NumberBusy                         .74009     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .37004     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .35815     (Insuf)    .00000     2.0000     .00000    
+station d.Queue.NumberInQueue               .32961     (Insuf)    .00000     3.0000     .00000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               .19838     (Insuf)    .00000     2.0000     .00000    
+station b.Queue.NumberInQueue               .31707     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             20.000    
+normel.NumberOut                            20.000    
+emergency.NumberIn                          2.0000    
+emergency.NumberOut                         2.0000    
+worker e.NumberSeized                       24.000    
+worker e.ScheduledUtilization               .82588    
+worker d.NumberSeized                       23.000    
+worker d.ScheduledUtilization               .86047    
+worker c.NumberSeized                       15.000    
+worker c.ScheduledUtilization               .67189    
+worker b.NumberSeized                       22.000    
+worker b.ScheduledUtilization               .91654    
+worker a.NumberSeized                       22.000    
+worker a.ScheduledUtilization               .37004    
+System.NumberOut                            22.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              188.47     (Insuf)    109.98     288.77         21    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               156.34     (Insuf)    103.80     248.43         19    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         19    
+normel.WaitTime                             31.169     (Insuf)    .00000     66.615         19    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         19    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         19    
+normel.TotalTime                            187.51     (Insuf)    109.98     288.77         19    
+emergency.VATime                            178.92     (Insuf)    118.61     239.24          2    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          2    
+emergency.WaitTime                          18.706     (Insuf)    10.324     27.089          2    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          2    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          2    
+emergency.TotalTime                         197.63     (Insuf)    128.93     266.33          2    
+station c.Queue.WaitingTime                 4.0978     (Insuf)    .00000     18.629         13    
+station d.Queue.WaitingTime                 9.2079     (Insuf)    .00000     48.662         27    
+station a.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         23    
+station e.Queue.WaitingTime                 10.108     (Insuf)    .00000     29.266         23    
+station b.Queue.WaitingTime                 6.2420     (Insuf)    .00000     26.206         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  11.139     (Insuf)    8.0000     13.000     11.000    
+emergency.WIP                               .76464     (Insuf)    .00000     2.0000     .00000    
+worker e.NumberBusy                         2.5001     (Insuf)    .00000     3.0000     3.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .83338     (Insuf)    .00000     1.0000     1.0000    
+worker d.NumberBusy                         3.4621     (Insuf)    1.0000     4.0000     2.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .86552     (Insuf)    .25000     1.0000     .50000    
+worker c.NumberBusy                         .61306     (Insuf)    .00000     1.0000     .00000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .61306     (Insuf)    .00000     1.0000     .00000    
+worker b.NumberBusy                         2.5977     (Insuf)    1.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .86590     (Insuf)    .33333     1.0000     1.0000    
+worker a.NumberBusy                         .74596     (Insuf)    .00000     2.0000     1.0000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .37298     (Insuf)    .00000     1.0000     .50000    
+station c.Queue.NumberInQueue               .14798     (Insuf)    .00000     1.0000     .00000    
+station d.Queue.NumberInQueue               .69060     (Insuf)    .00000     4.0000     .00000    
+station a.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+station e.Queue.NumberInQueue               .71680     (Insuf)    .00000     4.0000     2.0000    
+station b.Queue.NumberInQueue               .43023     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             22.000    
+normel.NumberOut                            19.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         2.0000    
+worker e.NumberSeized                       23.000    
+worker e.ScheduledUtilization               .83338    
+worker d.NumberSeized                       27.000    
+worker d.ScheduledUtilization               .86552    
+worker c.NumberSeized                       13.000    
+worker c.ScheduledUtilization               .61306    
+worker b.NumberSeized                       26.000    
+worker b.ScheduledUtilization               .86590    
+worker a.NumberSeized                       23.000    
+worker a.ScheduledUtilization               .37298    
+System.NumberOut                            21.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 120.0 Minutes (Saturday, June 07, 2025, 02:00:00)
+Statistics accumulated for time: 360.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+time in system                              157.62     (Insuf)    106.52     247.58         24    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+normel.VATime                               144.66     (Insuf)    102.72     244.72         22    
+normel.NVATime                              .00000     (Insuf)    .00000     .00000         22    
+normel.WaitTime                             11.690     (Insuf)    .00000     28.858         22    
+normel.TranTime                             .00000     (Insuf)    .00000     .00000         22    
+normel.OtherTime                            .00000     (Insuf)    .00000     .00000         22    
+normel.TotalTime                            156.35     (Insuf)    106.52     247.58         22    
+emergency.VATime                            163.18     (Insuf)    145.01     181.35          2    
+emergency.NVATime                           .00000     (Insuf)    .00000     .00000          2    
+emergency.WaitTime                          8.4657     (Insuf)    .00000     16.931          2    
+emergency.TranTime                          .00000     (Insuf)    .00000     .00000          2    
+emergency.OtherTime                         .00000     (Insuf)    .00000     .00000          2    
+emergency.TotalTime                         171.64     (Insuf)    145.01     198.28          2    
+station c.Queue.WaitingTime                 2.3471     (Insuf)    .00000     15.332         14    
+station d.Queue.WaitingTime                 1.1570     (Insuf)    .00000     14.342         26    
+station a.Queue.WaitingTime                 6.3634E-04 (Insuf)    .00000     .01654         26    
+station e.Queue.WaitingTime                 7.1522     (Insuf)    .00000     28.858         24    
+station b.Queue.WaitingTime                 8.5349     (Insuf)    .00000     27.726         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+normel.WIP                                  10.947     (Insuf)    8.0000     14.000     12.000    
+emergency.WIP                               .62028     (Insuf)    .00000     1.0000     .00000    
+worker e.NumberBusy                         2.6022     (Insuf)    .00000     3.0000     2.0000    
+worker e.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker e.Utilization                        .86742     (Insuf)    .00000     1.0000     .66667    
+worker d.NumberBusy                         3.1896     (Insuf)    1.0000     4.0000     4.0000    
+worker d.NumberScheduled                    4.0000     (Insuf)    4.0000     4.0000     4.0000    
+worker d.Utilization                        .79740     (Insuf)    .25000     1.0000     1.0000    
+worker c.NumberBusy                         .62222     (Insuf)    .00000     1.0000     .00000    
+worker c.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+worker c.Utilization                        .62222     (Insuf)    .00000     1.0000     .00000    
+worker b.NumberBusy                         2.8562     (Insuf)    2.0000     3.0000     3.0000    
+worker b.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+worker b.Utilization                        .95207     (Insuf)    .66667     1.0000     1.0000    
+worker a.NumberBusy                         .90972     (Insuf)    .00000     2.0000     .00000    
+worker a.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+worker a.Utilization                        .45486     (Insuf)    .00000     1.0000     .00000    
+station c.Queue.NumberInQueue               .09128     (Insuf)    .00000     1.0000     .00000    
+station d.Queue.NumberInQueue               .08970     (Insuf)    .00000     1.0000     1.0000    
+station a.Queue.NumberInQueue               4.5958E-05 (Insuf)    .00000     1.0000     .00000    
+station e.Queue.NumberInQueue               .47681     (Insuf)    .00000     2.0000     .00000    
+station b.Queue.NumberInQueue               .73001     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+normel.NumberIn                             25.000    
+normel.NumberOut                            22.000    
+emergency.NumberIn                          1.0000    
+emergency.NumberOut                         2.0000    
+worker e.NumberSeized                       24.000    
+worker e.ScheduledUtilization               .86742    
+worker d.NumberSeized                       26.000    
+worker d.ScheduledUtilization               .79740    
+worker c.NumberSeized                       14.000    
+worker c.ScheduledUtilization               .62222    
+worker b.NumberSeized                       27.000    
+worker b.ScheduledUtilization               .95207    
+worker a.NumberSeized                       26.000    
+worker a.ScheduledUtilization               .45486    
+System.NumberOut                            24.000    
+
+
+                                      ARENA Simulation Results
+                                                Tara
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date : 6/ 7/2025
+Analyst: Tara                                                        Model revision date: 6/ 7/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           .00000     .00000     .00000     .00000     10
+Entity 1.NumberOut                          .00000     .00000     .00000     .00000     10
+normel.NumberIn                             23.200     1.7127     20.000     28.000     10
+normel.NumberOut                            19.900     1.1410     17.000     22.000     10
+emergency.NumberIn                          1.2000     .30160     1.0000     2.0000     10
+emergency.NumberOut                         1.4000     .50015     .00000     2.0000     10
+worker e.NumberSeized                       22.900     1.4085     20.000     26.000     10
+worker e.ScheduledUtilization               .81933     .05189     .69742     .91342     10
+worker d.NumberSeized                       25.700     1.6876     23.000     30.000     10
+worker d.ScheduledUtilization               .86453     .04115     .79740     .99713     10
+worker c.NumberSeized                       14.800     1.4226     13.000     19.000     10
+worker c.ScheduledUtilization               .66606     .06238     .54631     .84053     10
+worker b.NumberSeized                       25.600     1.5887     22.000     30.000     10
+worker b.ScheduledUtilization               .91004     .04455     .79418     .99029     10
+worker a.NumberSeized                       24.400     1.6241     22.000     29.000     10
+worker a.ScheduledUtilization               .40426     .02756     .35763     .46365     10
+System.NumberOut                            21.300     1.1705     19.000     24.000     10
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

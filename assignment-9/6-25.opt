@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProblemDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DecisionVars>
+    <DecisionVariable>
+      <VarID>638843127925848561</VarID>
+      <Name>checkout</Name>
+      <Description />
+      <Type>VARDISCRETE</Type>
+      <LowerBound>1</LowerBound>
+      <UpperBound>9</UpperBound>
+      <SuggestedValue>1</SuggestedValue>
+      <DiscreteStepSize>1</DiscreteStepSize>
+      <Included>true</Included>
+      <Valid>true</Valid>
+      <SimulationVar>
+        <Category>Resources</Category>
+        <ControlName>checkout</ControlName>
+        <SymbolNumber>5</SymbolNumber>
+        <ControlType>RESOURCE</ControlType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <CurrentValue>1</CurrentValue>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationVar>
+    </DecisionVariable>
+    <DecisionVariable>
+      <VarID>638843127925848560</VarID>
+      <Name>exam</Name>
+      <Description />
+      <Type>VARDISCRETE</Type>
+      <LowerBound>3</LowerBound>
+      <UpperBound>5</UpperBound>
+      <SuggestedValue>3</SuggestedValue>
+      <DiscreteStepSize>1</DiscreteStepSize>
+      <Included>true</Included>
+      <Valid>true</Valid>
+      <SimulationVar>
+        <Category>Resources</Category>
+        <ControlName>exam</ControlName>
+        <SymbolNumber>4</SymbolNumber>
+        <ControlType>RESOURCE</ControlType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <CurrentValue>3</CurrentValue>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationVar>
+    </DecisionVariable>
+    <DecisionVariable>
+      <VarID>638843127925848558</VarID>
+      <Name>lab</Name>
+      <Description />
+      <Type>VARDISCRETE</Type>
+      <LowerBound>1</LowerBound>
+      <UpperBound>5</UpperBound>
+      <SuggestedValue>1</SuggestedValue>
+      <DiscreteStepSize>1</DiscreteStepSize>
+      <Included>true</Included>
+      <Valid>true</Valid>
+      <SimulationVar>
+        <Category>Resources</Category>
+        <ControlName>lab</ControlName>
+        <SymbolNumber>2</SymbolNumber>
+        <ControlType>RESOURCE</ControlType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <CurrentValue>1</CurrentValue>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationVar>
+    </DecisionVariable>
+    <DecisionVariable>
+      <VarID>638843127925848559</VarID>
+      <Name>nurse</Name>
+      <Description />
+      <Type>VARDISCRETE</Type>
+      <LowerBound>1</LowerBound>
+      <UpperBound>6</UpperBound>
+      <SuggestedValue>1</SuggestedValue>
+      <DiscreteStepSize>1</DiscreteStepSize>
+      <Included>true</Included>
+      <Valid>true</Valid>
+      <SimulationVar>
+        <Category>Resources</Category>
+        <ControlName>nurse</ControlName>
+        <SymbolNumber>3</SymbolNumber>
+        <ControlType>RESOURCE</ControlType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <CurrentValue>1</CurrentValue>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationVar>
+    </DecisionVariable>
+    <DecisionVariable>
+      <VarID>638843127925848557</VarID>
+      <Name>signin</Name>
+      <Description />
+      <Type>VARDISCRETE</Type>
+      <LowerBound>1</LowerBound>
+      <UpperBound>11</UpperBound>
+      <SuggestedValue>1</SuggestedValue>
+      <DiscreteStepSize>1</DiscreteStepSize>
+      <Included>true</Included>
+      <Valid>true</Valid>
+      <SimulationVar>
+        <Category>Resources</Category>
+        <ControlName>signin</ControlName>
+        <SymbolNumber>1</SymbolNumber>
+        <ControlType>RESOURCE</ControlType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <CurrentValue>1</CurrentValue>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationVar>
+    </DecisionVariable>
+  </DecisionVars>
+  <OutputVars>
+    <OutputVariable>
+      <Name>Entity 1.NumberIn</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.NumberIn</ResponseName>
+        <DataType>Number In</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>1</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.NumberOut</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.NumberOut</ResponseName>
+        <DataType>Number Out</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>2</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.NVATime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.NVATime</ResponseName>
+        <DataType>NVA Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>2</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.OtherTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.OtherTime</ResponseName>
+        <DataType>Other Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>5</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.TotalTime</Name>
+      <Description />
+      <Included>true</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.TotalTime</ResponseName>
+        <DataType>Total Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>6</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.TranTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.TranTime</ResponseName>
+        <DataType>Transfer Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>4</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.VATime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.VATime</ResponseName>
+        <DataType>VA Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>1</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.WaitTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.WaitTime</ResponseName>
+        <DataType>Wait Time</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>3</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>Entity 1.WIP</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Entity</Category>
+        <ResponseName>Entity 1.WIP</ResponseName>
+        <DataType>WIP</DataType>
+        <ProcessID>Entity 1</ProcessID>
+        <SymbolNumber>1</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout_.Queue.NumberInQueue</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>checkout_.Queue.NumberInQueue</ResponseName>
+        <DataType>Number Waiting</DataType>
+        <ProcessID>checkout_.Queue</ProcessID>
+        <SymbolNumber>19</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout_.Queue.WaitingTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>checkout_.Queue.WaitingTime</ResponseName>
+        <DataType>Waiting Time</DataType>
+        <ProcessID>checkout_.Queue</ProcessID>
+        <SymbolNumber>9</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam_.Queue.NumberInQueue</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>exam_.Queue.NumberInQueue</ResponseName>
+        <DataType>Number Waiting</DataType>
+        <ProcessID>exam_.Queue</ProcessID>
+        <SymbolNumber>20</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam_.Queue.WaitingTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>exam_.Queue.WaitingTime</ResponseName>
+        <DataType>Waiting Time</DataType>
+        <ProcessID>exam_.Queue</ProcessID>
+        <SymbolNumber>10</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab_.Queue.NumberInQueue</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>lab_.Queue.NumberInQueue</ResponseName>
+        <DataType>Number Waiting</DataType>
+        <ProcessID>lab_.Queue</ProcessID>
+        <SymbolNumber>18</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab_.Queue.WaitingTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>lab_.Queue.WaitingTime</ResponseName>
+        <DataType>Waiting Time</DataType>
+        <ProcessID>lab_.Queue</ProcessID>
+        <SymbolNumber>8</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse_.Queue.NumberInQueue</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>nurse_.Queue.NumberInQueue</ResponseName>
+        <DataType>Number Waiting</DataType>
+        <ProcessID>nurse_.Queue</ProcessID>
+        <SymbolNumber>17</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse_.Queue.WaitingTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>nurse_.Queue.WaitingTime</ResponseName>
+        <DataType>Waiting Time</DataType>
+        <ProcessID>nurse_.Queue</ProcessID>
+        <SymbolNumber>7</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>sign in.Queue.NumberInQueue</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>sign in.Queue.NumberInQueue</ResponseName>
+        <DataType>Number Waiting</DataType>
+        <ProcessID>sign in.Queue</ProcessID>
+        <SymbolNumber>21</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>sign in.Queue.WaitingTime</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Queue</Category>
+        <ResponseName>sign in.Queue.WaitingTime</ResponseName>
+        <DataType>Waiting Time</DataType>
+        <ProcessID>sign in.Queue</ProcessID>
+        <SymbolNumber>11</SymbolNumber>
+        <ResponseType>TALLY</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout.NumberBusy</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>checkout.NumberBusy</ResponseName>
+        <DataType>Number Busy</DataType>
+        <ProcessID>checkout</ProcessID>
+        <SymbolNumber>14</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout.NumberScheduled</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>checkout.NumberScheduled</ResponseName>
+        <DataType>Number Scheduled</DataType>
+        <ProcessID>checkout</ProcessID>
+        <SymbolNumber>15</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout.NumberSeized</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>checkout.NumberSeized</ResponseName>
+        <DataType>Total Number Seized</DataType>
+        <ProcessID>checkout</ProcessID>
+        <SymbolNumber>11</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout.ScheduledUtilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>checkout.ScheduledUtilization</ResponseName>
+        <DataType>Scheduled Utilization</DataType>
+        <ProcessID>checkout</ProcessID>
+        <SymbolNumber>12</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>checkout.Utilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>checkout.Utilization</ResponseName>
+        <DataType>Instantaneous Utilization</DataType>
+        <ProcessID>checkout</ProcessID>
+        <SymbolNumber>16</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam.NumberBusy</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>exam.NumberBusy</ResponseName>
+        <DataType>Number Busy</DataType>
+        <ProcessID>exam</ProcessID>
+        <SymbolNumber>11</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam.NumberScheduled</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>exam.NumberScheduled</ResponseName>
+        <DataType>Number Scheduled</DataType>
+        <ProcessID>exam</ProcessID>
+        <SymbolNumber>12</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam.NumberSeized</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>exam.NumberSeized</ResponseName>
+        <DataType>Total Number Seized</DataType>
+        <ProcessID>exam</ProcessID>
+        <SymbolNumber>9</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam.ScheduledUtilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>exam.ScheduledUtilization</ResponseName>
+        <DataType>Scheduled Utilization</DataType>
+        <ProcessID>exam</ProcessID>
+        <SymbolNumber>10</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>exam.Utilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>exam.Utilization</ResponseName>
+        <DataType>Instantaneous Utilization</DataType>
+        <ProcessID>exam</ProcessID>
+        <SymbolNumber>13</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab.NumberBusy</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>lab.NumberBusy</ResponseName>
+        <DataType>Number Busy</DataType>
+        <ProcessID>lab</ProcessID>
+        <SymbolNumber>5</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab.NumberScheduled</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>lab.NumberScheduled</ResponseName>
+        <DataType>Number Scheduled</DataType>
+        <ProcessID>lab</ProcessID>
+        <SymbolNumber>6</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab.NumberSeized</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>lab.NumberSeized</ResponseName>
+        <DataType>Total Number Seized</DataType>
+        <ProcessID>lab</ProcessID>
+        <SymbolNumber>5</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab.ScheduledUtilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>lab.ScheduledUtilization</ResponseName>
+        <DataType>Scheduled Utilization</DataType>
+        <ProcessID>lab</ProcessID>
+        <SymbolNumber>6</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>lab.Utilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>lab.Utilization</ResponseName>
+        <DataType>Instantaneous Utilization</DataType>
+        <ProcessID>lab</ProcessID>
+        <SymbolNumber>7</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse.NumberBusy</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>nurse.NumberBusy</ResponseName>
+        <DataType>Number Busy</DataType>
+        <ProcessID>nurse</ProcessID>
+        <SymbolNumber>8</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse.NumberScheduled</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>nurse.NumberScheduled</ResponseName>
+        <DataType>Number Scheduled</DataType>
+        <ProcessID>nurse</ProcessID>
+        <SymbolNumber>9</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse.NumberSeized</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>nurse.NumberSeized</ResponseName>
+        <DataType>Total Number Seized</DataType>
+        <ProcessID>nurse</ProcessID>
+        <SymbolNumber>7</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse.ScheduledUtilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>nurse.ScheduledUtilization</ResponseName>
+        <DataType>Scheduled Utilization</DataType>
+        <ProcessID>nurse</ProcessID>
+        <SymbolNumber>8</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>nurse.Utilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>nurse.Utilization</ResponseName>
+        <DataType>Instantaneous Utilization</DataType>
+        <ProcessID>nurse</ProcessID>
+        <SymbolNumber>10</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>signin.NumberBusy</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>signin.NumberBusy</ResponseName>
+        <DataType>Number Busy</DataType>
+        <ProcessID>signin</ProcessID>
+        <SymbolNumber>2</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>signin.NumberScheduled</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>signin.NumberScheduled</ResponseName>
+        <DataType>Number Scheduled</DataType>
+        <ProcessID>signin</ProcessID>
+        <SymbolNumber>3</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>signin.NumberSeized</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>signin.NumberSeized</ResponseName>
+        <DataType>Total Number Seized</DataType>
+        <ProcessID>signin</ProcessID>
+        <SymbolNumber>3</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>signin.ScheduledUtilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>signin.ScheduledUtilization</ResponseName>
+        <DataType>Scheduled Utilization</DataType>
+        <ProcessID>signin</ProcessID>
+        <SymbolNumber>4</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>signin.Utilization</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>Resource</Category>
+        <ResponseName>signin.Utilization</ResponseName>
+        <DataType>Instantaneous Utilization</DataType>
+        <ProcessID>signin</ProcessID>
+        <SymbolNumber>4</SymbolNumber>
+        <ResponseType>DSTAT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+    <OutputVariable>
+      <Name>System.NumberOut</Name>
+      <Description />
+      <Included>false</Included>
+      <SimulationOutput>
+        <Category>System</Category>
+        <ResponseName>System.NumberOut</ResponseName>
+        <DataType>Number Out</DataType>
+        <ProcessID>System</ProcessID>
+        <SymbolNumber>13</SymbolNumber>
+        <ResponseType>OUTPUT</ResponseType>
+        <ArrayType>SINGLEELEMENT</ArrayType>
+        <NumDimensions>0</NumDimensions>
+        <StartIndex>-1</StartIndex>
+        <EndIndex>-1</EndIndex>
+        <Dim1LowerLimit>-1</Dim1LowerLimit>
+        <Dim1UpperLimit>-1</Dim1UpperLimit>
+        <Dim2LowerLimit>-1</Dim2LowerLimit>
+        <Dim2UpperLimit>-1</Dim2UpperLimit>
+        <Dim1>-1</Dim1>
+        <Dim2>-1</Dim2>
+      </SimulationOutput>
+    </OutputVariable>
+  </OutputVars>
+  <Constraints>
+    <Constraint>
+      <Name>con1</Name>
+      <Description />
+      <Expression>( [checkout] - 1 ) * 50000 + ( [exam] - 3 ) * 200000 + ( [lab] - 1 ) * 100000 + ( [nurse] - 1 ) * 80000 + ( [signin] - 1 ) * 40000 &lt;= 400000</Expression>
+      <ValidExpression>true</ValidExpression>
+      <LinearExpression>true</LinearExpression>
+      <Included>true</Included>
+    </Constraint>
+  </Constraints>
+  <Objectives>
+    <Objective>
+      <Name>New Objective</Name>
+      <Description />
+      <Expression>[Entity 1.TotalTime]</Expression>
+      <ValidExpression>true</ValidExpression>
+      <LinearExpression>false</LinearExpression>
+      <Active>true</Active>
+      <Maximize>false</Maximize>
+    </Objective>
+  </Objectives>
+  <SuggestedSolutions />
+  <Options>
+    <Valid>true</Valid>
+    <AutoStop>true</AutoStop>
+    <ManualStop>true</ManualStop>
+    <IterationCountStop>false</IterationCountStop>
+    <NumIterations>100</NumIterations>
+    <Tolerance>0.01</Tolerance>
+    <SolutionLogFilePath>C:\Users\User\Documents\OptQuestSolutions.log</SolutionLogFilePath>
+    <ErrorControl>FIXEDREPLICATIONS</ErrorControl>
+    <NumFixedReplications>5</NumFixedReplications>
+    <NumMinimumReplications>3</NumMinimumReplications>
+    <NumMaximumReplications>6</NumMaximumReplications>
+    <ConfidenceLevelPercent>PCT95</ConfidenceLevelPercent>
+    <ConfidenctErrorPct>0.1</ConfidenctErrorPct>
+    <RunSuggestedSolutions>false</RunSuggestedSolutions>
+  </Options>
+  <Debug>false</Debug>
+  <ModelName>C:\Users\User\Desktop\4-30.doe</ModelName>
+</ProblemDefinition>
